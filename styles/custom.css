@@ -1,0 +1,48 @@
+
+header .navbar-brand img{
+    height: 100px;
+}
+
+.home-btn{
+    margin-top:-35px;
+    background-color:black !important;
+    border: 2px solid #ca9e2a !important;
+    color: #ca9e2a !important;
+    /* padding: 10px 30px !important; */
+}
+
+.featured-artists .gallery-cell{
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+}
+
+.rounded-social{
+    border-radius: 50% !important;
+}
+
+.adripop{
+    z-index: 23;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    color: black;
+    top: 66%;
+}
+
+.logo-intro{
+    margin-top:10%;
+}
+
+@media(min-width:1200px){
+    .flickity-page-dots{
+        display: none !important;
+    }
+}
+
+.featured-artist .rollover .text{
+    bottom: 120px !important;
+}
+
+.disco-bg{
+    background-color: #211E1E;
+}
